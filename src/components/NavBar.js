@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Logo from 'images/logo.png';
+import Logo from 'images/sukhothai-zerocovid-logo.png';
 
 const ComponentText = {
   HOME_MENU: 'สถานการณ์',

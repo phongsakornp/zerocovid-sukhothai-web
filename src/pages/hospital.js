@@ -33,31 +33,31 @@ const medical = {
   thermoscan: { value: 0 },
 };
 
-const trang = {
-  name: 'โรงพยาบาลศูนย์ตรัง',
+const sukhothai = {
+  name: 'โรงพยาบาลสุโขทัย',
   medicalNeed: {
     ...medical,
-    fMask: { value: 20000 },
-    n95Mask: { value: 1000 },
-    handGel: { value: 400 },
-    ppe: { value: 1000 },
-    thermoscan: { value: 5 },
+    fMask: { value: 'xxxxx' },
+    n95Mask: { value: 'xxx' },
+    handGel: { value: 'xxx' },
+    ppe: { value: 'xxx' },
+    thermoscan: { value: 'x' },
   },
 };
 
-const huayyod = {
-  name: 'โรงพยาบาลชุมชนห้วยยอด',
+const srisangworn = {
+  name: 'โรงพยาบาลศรีสังวร',
   medicalNeed: {
     ...medical,
-    fMask: { value: 10000 },
-    n95Mask: { value: 100 },
-    handGel: { value: 120 },
-    ppe: { value: 500 },
-    thermoscan: { value: 5 },
+    fMask: { value: 'xxxxx' },
+    n95Mask: { value: 'xxx' },
+    handGel: { value: 'xxx' },
+    ppe: { value: 'xxx' },
+    thermoscan: { value: 'x' },
   },
 };
 
-const hospitalList = [trang, huayyod];
+const hospitalList = [sukhothai, srisangworn];
 
 const Market = () => {
   return (

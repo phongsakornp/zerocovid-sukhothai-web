@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 
 const ComponentText = {
-  HERO_TITLE: 'สถานการณ์ COVID-19 จังหวัดตรัง',
+  HERO_TITLE: 'สถานการณ์ COVID-19 จังหวัดสุโขทัย',
   HERO_SUBTITLE: '',
   INFECT_TOTAL_STAT_TITLE: 'ติดเชื้อ',
   TREAT_STAT_TILE: 'กำลังรักษา',
@@ -20,7 +20,7 @@ const ComponentText = {
 
 const Api = {
   CASES_URL: 'https://covid19.th-stat.com/api/open/cases',
-  PROVINCE_ID: 15,
+  PROVINCE_ID: 66,
 };
 
 const Stat = ({
